@@ -127,10 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="binNode.h" />
+    <ClInclude Include="bintree.h" />
     <ClInclude Include="fib.h" />
     <ClInclude Include="list.hpp" />
     <ClInclude Include="listnode.h" />
-    <ClInclude Include="stack.h" />
+    <ClInclude Include="queue_list.h" />
+    <ClInclude Include="stack_vector.h" />
+    <ClInclude Include="stack_list.h" />
+    <ClInclude Include="stack_example.h" />
     <ClInclude Include="vector.hpp" />
   </ItemGroup>
   <ItemGroup>

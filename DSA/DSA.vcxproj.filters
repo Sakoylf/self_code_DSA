@@ -27,7 +27,22 @@
     <ClInclude Include="list.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="stack.h">
+    <ClInclude Include="stack_vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_example.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="queue_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="binNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bintree.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

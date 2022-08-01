@@ -1,39 +1,9 @@
 #include<iostream>
 using namespace std;
 #include <cstring>
-#include"stack.h"
+#include"stack_vector.h"
 #include"vector.hpp"
-
-/***************************************************
-				栈与队列
-***************************************************/
-void convert(Stack<char>& S, __int64 n, int base)
-{
-	static char digit[] = { '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F' };
-	while (0 < n)
-	{
-		S.push(digit[n % base]);
-		n /= base;
-	}
-
-}
-
-bool paren(const char exp[], int lo, int hi)   //exp里面只有括号
-{
-	Stack<char> S;
-	for (int i = lo; i < hi; i++)
-	{
-		switch(exp[i]) {
-		case '(': case'[':case'{': S.push(exp[i]); break;
-		case')': if (S.empty() || S.pop() != '(') return false; break;
-		case']':if (S.empty() || S.pop() != '[') return false; break;
-		case'}':if (S.empty() || S.pop() != '{') return false; break;
-		default:break;//非括号字符一律忽略
-		}
-	}
-	return S.empty();
-}
-
+#include"stack_example.h"
 
 
 /***************************************************
